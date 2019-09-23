@@ -1,0 +1,9 @@
+import java.util.Scanner;
+
+public class UserInput {
+    public static void main ( String [] args){
+        Scanner myObject = new Scanner (System.in);
+        System.out.println(" Enter Any Integer : ");
+
+        String integer = myObject.nextLine();  // Read user input
+        System.out.println("Your Number is: " + integer);  // Output user input
