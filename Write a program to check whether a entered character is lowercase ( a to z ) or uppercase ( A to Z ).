@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+//Write a program to check whether a entered character is lowercase ( a to z ) or uppercase ( A to Z ).
+public class cdP3 {
+    public static void main(String[]args){
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter Any Alphabet Character");
+
+        char C = scan.next().charAt(0);
+        if (C>=65 && C<=90){
+            System.out.println("This is Uppercase Alphabet");
+        }else if (C >=97 && C<= 122){
+            System.out.println("This is Lowercase Alphabet");
+        }else{
+            System.out.println("This is not a Alphabet");
+        }
+
+
+    }
+}
